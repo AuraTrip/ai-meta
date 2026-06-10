@@ -1,0 +1,12 @@
+[submodule "repos/api"]
+	path = repos/api
+	url = git@github.com:AuraTrip/api.git
+[submodule "repos/chat"]
+	path = repos/chat
+	url = git@github.com:AuraTrip/chat.git
+[submodule "repos/ops"]
+	path = repos/ops
+	url = git@github.com:AuraTrip/ops.git
+[submodule "repos/ui"]
+	path = repos/ui
+	url = git@github.com:AuraTrip/ui.git
