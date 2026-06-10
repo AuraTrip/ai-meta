@@ -1,4 +1,4 @@
-# {{PROJECT_NAME}} AI Project Template
+# AuraTrip AI Project Template
 
 Reusable starter repository for AI-assisted projects.
 
@@ -12,8 +12,8 @@ Use this template, then run the included initializer once to replace all placeho
 
 ```bash
 # 1) Clone your new meta repository created from this template
-git clone {{REPO_PREFIX}}/{{PROJECT_SLUG}}-meta.git
-cd {{PROJECT_SLUG}}-meta
+git clone git@github.com:AuraTrip/auratrip-meta.git
+cd auratrip-meta
 
 # 2) Run initializer (interactive)
 bash ./init.sh
@@ -142,7 +142,7 @@ Recommended linking pattern for every substantive cross-repo task:
 ## Linking Repositories
 
 ```bash
-git submodule add {{REPO_PREFIX}}/<repo-name>.git repos/<repo-name>
+git submodule add git@github.com:AuraTrip/<repo-name>.git repos/<repo-name>
 git commit -m "chore(sync): add <repo-name> submodule"
 ```
 

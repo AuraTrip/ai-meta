@@ -1,8 +1,8 @@
-# {{PROJECT_NAME}} AI Instructions
+# AuraTrip AI Instructions
 
 ## Repo purpose
 
-This repository is the coordination layer and shared memory for the {{PROJECT_NAME}} project. It can support a monorepo, linked repositories, or a forked starter workflow. It contains:
+This repository is the coordination layer and shared memory for the AuraTrip project. It can support a monorepo, linked repositories, or a forked starter workflow. It contains:
 
 - Optional linked repos or subprojects under `repos/`
 - A Git-tracked **memory system** under `memory/`
