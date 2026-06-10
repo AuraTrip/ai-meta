@@ -12,8 +12,8 @@ Use this template, then run the included initializer once to replace all placeho
 
 ```bash
 # 1) Clone your new meta repository created from this template
-git clone git@github.com:AuraTrip/auratrip-meta.git
-cd auratrip-meta
+git clone git@github.com:AuraTrip/ai-meta.git
+cd ai-meta
 
 # 2) Run initializer (interactive)
 bash ./init.sh
