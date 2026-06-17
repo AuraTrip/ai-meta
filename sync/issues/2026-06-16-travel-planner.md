@@ -17,11 +17,14 @@
 - All repos: no PRs yet — implementation has not started.
 
 ## External Tracker Links
-- GitHub umbrella issue: AuraTrip/ai-meta#TBD (to be opened — see `sync/issues/github-issues/umbrella.md`)
-- Sub-issues: see `sync/issues/github-issues/` for scaffolded bodies
+- GitHub umbrella issue: [AuraTrip/ai-meta#1](https://github.com/AuraTrip/ai-meta/issues/1)
+- api sub-issue: [AuraTrip/api#1](https://github.com/AuraTrip/api/issues/1)
+- chat sub-issue: [AuraTrip/chat#1](https://github.com/AuraTrip/chat/issues/1)
+- ui sub-issue: [AuraTrip/ui#1](https://github.com/AuraTrip/ui/issues/1)
+- ops sub-issue: [AuraTrip/ops#1](https://github.com/AuraTrip/ops/issues/1)
 
 ## Documentation Memory Links
-- ai-meta wiki: https://github.com/AuraTrip/ai-meta/wiki (to be created — see `sync/issues/wiki/ai-meta-home.md`)
+- ai-meta wiki: https://github.com/AuraTrip/ai-meta/wiki (published)
 - api wiki: https://github.com/AuraTrip/api/wiki (to be created after implementation)
 - chat wiki: https://github.com/AuraTrip/chat/wiki (to be created after implementation)
 - ui wiki: https://github.com/AuraTrip/ui/wiki (to be created after implementation)
@@ -40,9 +43,9 @@
   - PostgreSQL schema migrations needed in api before trips/destinations features work.
 
 ## Follow-ups
-- [ ] Install gh CLI or use GitHub web UI to open umbrella issue from `sync/issues/github-issues/umbrella.md`
-- [ ] Open per-repo sub-issues from `sync/issues/github-issues/` and update umbrella with issue numbers
-- [ ] Create ai-meta wiki home page from `sync/issues/wiki/ai-meta-home.md`
+- [x] Open umbrella issue — [AuraTrip/ai-meta#1](https://github.com/AuraTrip/ai-meta/issues/1)
+- [x] Open per-repo sub-issues and link in umbrella
+- [x] Publish ai-meta wiki home page — https://github.com/AuraTrip/ai-meta/wiki
 - [ ] Begin implementation in api repo (destination search first — unblocks ui and chat)
 - [ ] Provision Claude API key and add to Secrets Manager (ops task)
 - [ ] Update this sync note with issue numbers and wiki URLs once published
