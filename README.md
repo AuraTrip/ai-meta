@@ -121,6 +121,9 @@ See `handoffs/README.md` and `agents/rules/handoffs.md` if you use handoffs.
 - `memory(curate): <scope>` — manual current.md refresh
 - `chore(sync): bump <repo> to <sha>` — linked-repo pointer update
 - `docs(agents): <description>` — agent infrastructure changes
+- `handoff(open): <slug>` — open handoff thread
+- `handoff(result): <slug> round NN` — publish handoff result
+- `handoff(close): <slug>` — archive completed thread
 
 ## Extended Memory Storage (Jira, GitHub, Confluence)
 
